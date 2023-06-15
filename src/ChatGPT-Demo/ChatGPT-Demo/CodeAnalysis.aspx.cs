@@ -22,7 +22,7 @@ namespace ChatGPT_Demo
             _api = OpenAIAPI.ForAzure(
                 YourResourceName: "aihackday062023",
                 deploymentId: "chatGpt3",
-                apiKey: "            _api = new OpenAIAPI();\r\n");
+                apiKey: "84b24763c9cb4411bdfb018e9c0305e1");
             _api.ApiVersion = "2023-03-15-preview";
 
             _chat = _api.Chat.CreateConversation();
